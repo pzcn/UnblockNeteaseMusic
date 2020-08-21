@@ -2,7 +2,13 @@
   "name": "UnblockNeteaseMusic",
   "description": "Run UnblockNeteaseMusic on Heroku.",
   "keywords": ["UnblockNeteaseMusic"],
-  "website": "https://github.com/nondanee/UnblockNeteaseMusic",
   "repository": "https://github.com/nondanee/UnblockNeteaseMusic",
-  "stack": "container",
+  "website": "https://github.com/nondanee/UnblockNeteaseMusic",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "container"
 }
