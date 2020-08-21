@@ -2,4 +2,4 @@ build:
   docker:
       worker: Dockerfile
 run:
-  worker: docker run nondanee/unblockneteasemusic
+  web: docker run nondanee/unblockneteasemusic
