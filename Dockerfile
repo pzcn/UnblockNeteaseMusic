@@ -8,6 +8,6 @@ COPY package*.json ./
 RUN npm install --production
 COPY . .
 
-EXPOSE 8080 8964
+EXPOSE 80
 
 ENTRYPOINT ["node", "app.js"]
